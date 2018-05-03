@@ -485,15 +485,15 @@
 /*my scripts*/
 $('.dd').nestable('serialize');
 $('.viewlist').on('click', function() {
-    $('ol.kanban').addClass('list')
-    $('ol.list').removeClass('kanban')
-    $('menu').addClass('list')
+    $('ol.kanban').addClass('list');
+    $('ol.list').removeClass('kanban');
+    $('menu').addClass('list');
     $('menu').removeClass('kanban')
    });
 $('.viewkanban').on('click', function() {
-    $('ol.list').addClass('kanban')
-     $('ol.kanban').removeClass('list')
-       $('menu').addClass('kanban')
+    $('ol.list').addClass('kanban');
+     $('ol.kanban').removeClass('list');
+       $('menu').addClass('kanban');
      $('menu').removeClass('list')
    });
 /*colors*/
